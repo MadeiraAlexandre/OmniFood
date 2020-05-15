@@ -13,6 +13,16 @@ html{
     text-rendering: optimizeLegibility;
     font-size: 18px;
 }
+.clearfix {zoom: 1;}
+.clearfix::after {
+    content: '.';
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+
 /*---------------------------------*/
 /*Reusable components*/
 /*---------------------------------*/
@@ -145,6 +155,7 @@ h3{
 }
 .section-steps{
     padding-top: 40px;
+    background-color: rgb(235, 235, 235);
 }
 .app-screen{
     width: 40%;
@@ -162,6 +173,9 @@ h3{
 .work-steps{
     margin-bottom: 50px;
 
+}
+.work-steps:last-of-type{
+    margin-bottom: 80px;
 }
 .work-steps div{
     color: #e67e22;
