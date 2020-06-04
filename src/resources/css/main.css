@@ -78,7 +78,8 @@ h3{
     margin-top: 10%;
 }
 .btn:link,
-.btn:visited {
+.btn:visited,
+input[type=submit] {
     display: inline-block;
     padding: 10px 30px;
     font-weight: 300;
@@ -90,11 +91,14 @@ h3{
     transition: background-color 0.2s, border 0.2s, color 0.2s;
 }
 .btn:hover,
-.btn:active {
+.btn:active,
+input[type=submit]:hover
+input[type=submit]:active {
     background-color: #b05d14;
 }
 .btn-full:link,
-.btn-full:visited {
+.btn-full:visited,
+input[type=submit] {
     background-color: #e67e22;
     border: 1px solid #e67e22;
 }
@@ -124,3 +128,4 @@ h3{
     vertical-align: middle;
     margin-top: -2px;
 }
+*:focus {outline: none;}
