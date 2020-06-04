@@ -3,7 +3,15 @@
     <head>
         <title>Omni Food</title>
         <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="resources/css/main.css">
+        <link rel="stylesheet" type="text/css" href="resources/css/header.css">
         <link rel="stylesheet" type="text/css" href="resources/css/style.css"> 
+        <link rel="stylesheet" type="text/css" href="resources/css/section-cities.css">
+        <link rel="stylesheet" type="text/css" href="resources/css/section-meals.css">
+        <link rel="stylesheet" type="text/css" href="resources/css/section-plans.css">
+        <link rel="stylesheet" type="text/css" href="resources/css/section-steps.css">
+        <link rel="stylesheet" type="text/css" href="resources/css/section-costumers.css">
+        <link rel="stylesheet" type="text/css" href="resources/css/section-form.css">
         <link rel="stylesheet" type="text/css" href="vendors/css/grid.css">
         <link rel="stylesheet" type="text/css" href="vendors/css/ionicons.min.css">
         <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
@@ -277,27 +285,63 @@
                 <h2>We're happy to hear from you</h2>
             </div>
             <div class="row">
-
+                <form method="POST" action="#" class="contact-form">
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label for="name">Name:</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="text" placeholder="Name" id="name" spellcheck="true" name="name" required>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label for="email">Email</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="email" id="email" placeholder="yourname@email.com" required name="email">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label for="find-us">How did you find us?</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <select id="find-us" name="find-us">
+                                <option value="friends" selected>Friends</option>
+                                <option value="twitter">Twitter</option>
+                                <option value="facebook">Facebook</option>
+                                <option value="google">Google</option>
+                                <option value="youtube">Youtube</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label for="newsletter">Newsletter</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="checkbox" id="newsletter" name="newsletter">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label for="message">Drop us a line</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <textarea draggable="false" id="message" name="message" placeholder="Your message"></textarea>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label>&nbsp;</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="submit" value="Send it!">
+                        </div>
+                    </div>
+                </form>
             </div>
         </section>
     </body>
 </html>
-
-<!-- 
-Section 7: Contact form
-Fields to include:
-Name
-Email
-How did you find us?
-Newsletter
-Drop us a line
-Section 8: Footer
-Title: None
-Navigation:
-1. About us
-2. Blog
-3. Press
-4. iOS App
-5. Android App
-Also include links to facebook, twitter, and Instagram accounts.
--->

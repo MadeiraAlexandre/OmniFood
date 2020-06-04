@@ -1,0 +1,21 @@
+.cities-box a {
+    text-decoration: none;
+    display: inline;
+    color: #df883d;
+    border-bottom: 1px solid #df883d;
+    transition: border-bottom 0.2s;
+    padding: 2px;
+}
+.cities-box a:hover{
+    color: #b05d14;
+    border-bottom: 1px solid transparent;
+}
+.cities-box img {
+    width: 100%;
+    margin-bottom: 15px;
+    border-radius: 4px;
+}
+.cities-box p {
+    margin-bottom: 5px;
+    padding: 0;
+}
