@@ -2,12 +2,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
 }
-html{
+html,
+body{
     font-family: 'Lato', sans-serif;
     text-rendering: optimizeLegibility;
     font-size: 18px;
+    overflow-x: hidden;
 }
 .clearfix {zoom: 1;}
 .clearfix::after {
@@ -21,10 +22,7 @@ html{
     max-width: 1140px;
     margin: 0 auto;
 }
-section{
-    padding: 40px 0;
-}
-
+section{ padding: 40px 0; }
 h1, h2, h3, h4{ 
     font-weight: 300;
     text-transform: uppercase;
@@ -62,9 +60,7 @@ h3{
     width: 70%;
     margin-left: 15%;
 }
-.box{
-    padding: 1%;
-}
+.box{ padding: 1%; }
 .box p {
     font-size: 90%;
     line-height: 145%;
@@ -93,9 +89,7 @@ input[type=submit] {
 .btn:hover,
 .btn:active,
 input[type=submit]:hover
-input[type=submit]:active {
-    background-color: #b05d14;
-}
+input[type=submit]:active { background-color: #b05d14; }
 .btn-full:link,
 .btn-full:visited,
 input[type=submit] {

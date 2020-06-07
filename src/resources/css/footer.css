@@ -1,6 +1,7 @@
 footer{
     background-color: rgb(63, 63, 63);
     padding: 40px;
+    padding-bottom: 20px;
 }
 footer ul {
     list-style: none;
@@ -38,7 +39,7 @@ footer li {
 }
 .ion-social-instagram:hover,
 .ion-social-instagram:active{
-    color: #4c5fd7;
+    color: #405DE6;
 }
 footer a:link,
 footer a:visited{
@@ -53,9 +54,15 @@ footer a:hover,
 footer a:active{
     color: rgb(240, 240, 240);
 }
+footer p:first-child{
+    margin-top: 60px;
+}
 footer p {
     text-align: center;
-    padding-top: 30px;
+    padding-top: 10px;
     font-size: 80%;
     color: rgb(200, 200, 200);
+}
+.ion-heart{
+    color: red;
 }

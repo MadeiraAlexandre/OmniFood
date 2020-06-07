@@ -2,9 +2,7 @@
     padding-top: 40px;
     background-color: rgb(235, 235, 235);
 }
-.app-screen{
-    width: 40%;
-}
+.app-screen{ width: 40%; }
 .steps-box:first-child{
     text-align: right;
     padding-right: 3%;
@@ -15,13 +13,8 @@
     padding-left: 3%;
     margin-top: 75px;
 }
-.work-steps{
-    margin-bottom: 50px;
-
-}
-.work-steps:last-of-type{
-    margin-bottom: 80px;
-}
+.work-steps{ margin-bottom: 50px; }
+.work-steps:last-of-type{ margin-bottom: 80px; }
 .work-steps div{
     color: #e67e22;
     border: 2px solid #e67e22;
