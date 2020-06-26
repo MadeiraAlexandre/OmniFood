@@ -54,11 +54,14 @@ h2:after{
 h3{
     font-size: 110%;
     margin-bottom: 15px;
+    font-weight: 400;
 }
 .long-copy{
     line-height: 145%;
     width: 70%;
     margin-left: 15%;
+    text-align: center;
+    font-weight: 400;
 }
 .box{ padding: 1%; }
 .box p {

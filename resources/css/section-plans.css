@@ -26,9 +26,9 @@
 }
 .plan-price{
     font-size: 200%;
+    font-weight: 300;
     text-align: center;
     margin-bottom: 10px;
-    font-weight: 100;
     color: #df883d;
 }
 .plan-price span {
